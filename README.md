@@ -1,1 +1,1 @@
-This is solution to homework 1 in machine learning class.
+This is solution to homework 1 and homework 2 in machine learning class. Both of them required implementation of certain machine learning methods without using existing libraries except for basic functionalities and data structures.
