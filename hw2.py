@@ -49,9 +49,6 @@ def compute_accuracy(test_y, pred_y):
 	#print ('Accuracy computing lasted:  ' + str(t_end - t_start))
 	return accuracy
 
-def get_id():
-	return "tug73611"
-
 def cross_validation(train_x, train_y, num_cv, epochs, learning_rate, cv_acc, loss, regularization):
 	for i in range(0, 5):
 		cv_x = train_x[i * num_cv: (i + 1) * num_cv, :]
