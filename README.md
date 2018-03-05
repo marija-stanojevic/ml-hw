@@ -1,4 +1,4 @@
-<h3> Machine Learning Class - Homework solutions</h3>
+<h3> Machine Learning Class - Homework solutions (October 2017)</h3>
 
 These are solutions to homework 1 and homework 2 in machine learning class. Both of them required implementation of certain machine learning methods without using existing libraries except for basic functionalities and data structures.
 
