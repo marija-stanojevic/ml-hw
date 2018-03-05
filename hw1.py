@@ -83,9 +83,6 @@ def compute_accuracy(test_y, pred_y):
 	print ('\naccuracy computing:  ' + str(t_end - t_start))
 	return accuracy
 
-def get_id():
-	return 'tug73611'
-
 def confusion_matrix(test_y, pred_y):
 	conf_mat = np.zeros(shape=[26, 26], dtype=int)
 	test_y_let = test_y.view(np.uint8) - 65
